@@ -7,7 +7,7 @@ Para ejecutar el proyecto es recomendable seguir las siguientes indicaciones:
 Para **VSCode**:
 
 En una terminal del sistema (CMD):
-1. `cd Proyect_folder(Challenge1)` Entramos a la ruta del folder del Proyecto.
+1. `cd Proyect_folder` Entramos a la ruta del folder del Proyecto.
 2. `python -m venv env` Esto para crear un ambiente virtual. (**Asumo que tienen Python > 3.8**)
 3. `env\Scripts\activate.bat` Para activar el ambiente virtual.
 4. `pip install -r requirements.txt -q` Para instalar las dependencias.
@@ -32,7 +32,7 @@ Si no se abre de manera automática la app, hay que abrir la ruta `http://localh
 Para **CMD**:
 
 En una terminal del sistema (CMD):
-1. `cd Proyect_folder(Challenge1)` Entramos a la ruta del folder del Proyecto.
+1. `cd Proyect_folder` Entramos a la ruta del folder del Proyecto.
 2. `python -m venv env` Esto para crear un ambiente virtual. (**Asumo que tienen Python > 3.8**)
 3. `env\Scripts\activate.bat` Para activar el ambiente virtual.
 4. `pip install -r requirements.txt -q` Para instalar las dependencias.
@@ -40,7 +40,7 @@ En una terminal del sistema (CMD):
 6. En el archivo `.env` de variable de entorno, anotar la API_Key de OAI.
 
 7. En otra terminal del sistema (CMD):
-    1. `cd Proyect_folder(Challenge1)` Entramos a la ruta del folder del Proyecto.
+    1. `cd Proyect_folder` Entramos a la ruta del folder del Proyecto.
     2. `env\Scripts\activate.bat` Para activar el ambiente virtual.
     3. Con el ambiente activo, se va a ejecutar el API del servicio FastAPI de la siguiente forma:
     `py .\back_end.py`
@@ -50,7 +50,7 @@ En una terminal del sistema (CMD):
     Podemos acceder a la ruta ` http://127.0.0.1:8000\docs` para ver el Swagger con los métodos.
 
 8. En otra terminal del sistema (CMD):
-    1. `cd Proyect_folder(Challenge1)` Entramos a la ruta del folder del Proyecto.
+    1. `cd Proyect_folder` Entramos a la ruta del folder del Proyecto.
     2. `env\Scripts\activate.bat` Para activar el ambiente virtual.
     3. Aquí ejecutamos la Interfaz de usuario:
     `streamlit run .\front_end.py`
